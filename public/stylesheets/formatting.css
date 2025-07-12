@@ -185,14 +185,6 @@ select {
     text-transform: none
 }
 
-button,
-input:where([type=button]),
-input:where([type=reset]),
-input:where([type=submit]) {
-    -webkit-appearance: button;
-    background-color: initial;
-    background-image: none
-}
 
 :-moz-focusring {
     outline: auto
@@ -211,10 +203,6 @@ progress {
     height: auto
 }
 
-[type=search] {
-    -webkit-appearance: textfield;
-    outline-offset: -2px
-}
 
 ::-webkit-search-decoration {
     -webkit-appearance: none
@@ -292,10 +280,6 @@ iframe,
 img,
 object,
 svg,
-video {
-    display: block;
-    vertical-align: middle
-}
 
 img,
 video {
